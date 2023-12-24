@@ -1518,6 +1518,7 @@ a {
         display: none;
     }
 
+    /* resume button */
     .resume a{
         color: var(--green);
         padding: 0.55rem 1rem;
