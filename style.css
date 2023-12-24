@@ -152,6 +152,24 @@ a {
 }
 
 
+.resume a{
+    color: var(--green);
+    padding: 0.75rem 1rem;
+    font-size: 15px;
+    transition: .3s;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid var(--green);
+    border-radius: 5px;
+    font-family: var(--font-mono);
+}
+
+.resume a:hover{
+    background-color: var(--green);
+    color: var(--whites);
+}
+
+
 /* mobile nav */
 .burger div{
     width: 25px;
@@ -1489,8 +1507,35 @@ a {
     }
     .project_container
     {
+        display: flex;
+        align-items: center;
+        column-gap: 1rem;
+        margin-left: auto;
+        margin-right: 10px;
+    }
+
+    .project_container .project{
         display: none;
     }
+
+    .resume a{
+        color: var(--green);
+        padding: 0.55rem 1rem;
+        font-size: 15px;
+        transition: .3s;
+        cursor: pointer;
+        background-color: transparent;
+        border: 1px solid var(--green);
+        border-radius: 5px;
+        font-family: var(--font-mono);
+    }
+    
+    .resume a:hover{
+        background-color: var(--green-tint);
+        color: var(--white);    
+    }
+
+    
     .nav_logo{
         letter-spacing: 1px;
         display: inline-flex;
