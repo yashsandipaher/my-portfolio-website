@@ -152,7 +152,7 @@ a {
 }
 
 
-.resume a{
+.project_container .resume a{
     color: var(--green);
     padding: 0.75rem 1rem;
     font-size: 15px;
@@ -164,7 +164,7 @@ a {
     font-family: var(--font-mono);
 }
 
-.resume a:hover{
+.project_container .resume a:hover{
     background-color: var(--green);
     color: var(--whites);
 }
